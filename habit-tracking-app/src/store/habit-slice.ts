@@ -32,14 +32,14 @@ export const habitSlice = createSlice({
       // which detects changes to a "draft state" and produces a brand new
       // immutable state based off those changes
       // Logic for adding, removing, or updating habits will go here.
-
+    addHabit: () => {},
 
       
   }
 });
 
 // Action creators are generated for each case reducer function
-export const {  } = habitSlice.actions
+export const { addHabit } = habitSlice.actions
 
 export default habitSlice.reducer
 
